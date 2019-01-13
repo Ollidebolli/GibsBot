@@ -30,6 +30,7 @@ export interface GenerateChargeResponse {
     address: string
   }
 }
+
 export interface GenerateChargeRequest {
   amount: number
   description?: string
