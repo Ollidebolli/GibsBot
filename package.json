@@ -1,0 +1,17 @@
+{
+  "name": "gibsbot",
+  "version": "1.0.0",
+  "dependencies": {
+    "qrcode-generator": "^1.4.1",
+    "superagent": "^4.1.0",
+    "telegraf": "^3.26.0"
+  },
+  "devDependencies": {
+    "@types/superagent": "^3.8.6",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "start": "cd src && ts-node index.ts"
+  }
+}
